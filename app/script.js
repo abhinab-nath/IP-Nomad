@@ -14,6 +14,18 @@ L.tileLayer(
 
 let marker = null;
 
+// Map-Recenter button 
+const recenterBtn = document.querySelector(".recenter-btn");
+
+recenterBtn.addEventListener("click", () => {
+  if (marker) {
+    const pos = marker.getLatLng();
+    map.flyTo(pos, 15);
+  } else {
+    alert("No location marker available yet!");
+  }
+});
+
 // getting data from geo.ipfy api
 async function fetchIPData(query = "") {
   const apiKey = "at_ZA3HovzvtVsZVNIphIhfQ2baREF49"; // Replace with your IPify API key
