@@ -35,7 +35,7 @@ body {
     padding: px;   */
     background-size: cover;
     background-position: center;
-    background-image: url('./assets/header_background.jfif') ;
+    background-image: url('/assets/header_background.jfif') ;
 }
 
 h1{
@@ -125,6 +125,10 @@ input::placeholder{
     text-align: center;
 }
 
+#map{
+   height: 70vh;
+   
+}
 
 @media(max-width:1000px){
     .search{
