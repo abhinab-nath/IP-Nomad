@@ -28,10 +28,14 @@ const mapStyles = [
     name: "Satellite",
     url: "https://api.maptiler.com/maps/hybrid/{z}/{x}/{y}.jpg?key=ZgRtdXQAOqmqIIucoNwZ",
   },
+  {
+    name: "Vector",
+    url: "https://api.maptiler.com/maps/toner-v2/{z}/{x}/{y}.png?key=ZgRtdXQAOqmqIIucoNwZ",
+  },
 ];
 
 // Initial map-style
-let currentStyleIndex = 0;
+let currentStyleIndex = 3;
 
 let tileLayer = L.tileLayer(mapStyles[currentStyleIndex].url, {
   attribution:
@@ -123,7 +127,7 @@ function updateInfo(data) {
 
   //custom map-pin
   const customIcon = L.icon({
-    iconUrl: "/assets/map-pin2.png", // your image path
+    iconUrl: "/assets/map-pin2.png", // image path
     iconSize: [50, 50], // width, height in pixels
     iconAnchor: [25, 50], // point of the icon which will be at marker's location
     popupAnchor: [0, -50], // where the popup should open relative to the icon
