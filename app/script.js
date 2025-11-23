@@ -35,7 +35,7 @@ const mapStyles = [
 ];
 
 // Initial map-style
-let currentStyleIndex = 3;
+let currentStyleIndex = 0;
 
 let tileLayer = L.tileLayer(mapStyles[currentStyleIndex].url, {
   attribution:
@@ -85,7 +85,7 @@ recenterBtn.addEventListener("click", () => {
 
 // getting data from geo.ipfy api
 async function fetchIPData(query = "") {
-  const apiKey = ""; // IPify API key --- at_llYGygRAR8BkqKU40VNGDl7uJhNWl
+  const apiKey = "at_llYGygRAR8BkqKU40VNGDl7uJhNWl"; // IPify API key --- at_llYGygRAR8BkqKU40VNGDl7uJhNWl
 
   // Decides which parameter to use (IP or domain)
   let param = "";
