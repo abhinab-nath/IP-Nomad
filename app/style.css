@@ -30,7 +30,7 @@ body {
     padding: px;   */
   background-size: cover;
   background-position: center;
-  background-image: url("/assets/header_background.jfif");
+  background-image: url("assets/header_background.jfif");
   position: relative;
   z-index: 999;
 }
