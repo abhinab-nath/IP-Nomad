@@ -85,7 +85,7 @@ recenterBtn.addEventListener("click", () => {
 
 // getting data from geo.ipfy api
 async function fetchIPData(query = "") {
-  const apiKey = "at_llYGygRAR8BkqKU40VNGDl7uJhNWl"; // IPify API key --- at_llYGygRAR8BkqKU40VNGDl7uJhNWl
+  const apiKey = ""; // IPify API key 
 
   // Decides which parameter to use (IP or domain)
   let param = "";
