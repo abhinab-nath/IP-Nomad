@@ -21,8 +21,7 @@ It uses the Geo.IPify API to fetch IP data and Leaflet.js + MapTiler to visualiz
 
 ---
 
-
-
+<img align="center" alt="homepage" src="https://github.com/abhinab-nath/IP-Nomad/blob/main/app/assets/searching_ip.png">
 
 ---
 
