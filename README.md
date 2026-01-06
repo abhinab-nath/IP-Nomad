@@ -92,7 +92,7 @@ IPNOMAD/
 
 ```cd ipnomad```
 
-3. Add Your API Key
+2. Add Your API Key
 
 Open script.js and replace:
   
