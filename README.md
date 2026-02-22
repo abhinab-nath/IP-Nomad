@@ -88,7 +88,7 @@ IPNOMAD/
 ## ⚙️ Setup Instructions (Local Development)
 
 1. Clone the repo
-``` git clone https://github.com/your-username/ipnomad.git ```
+``` git clone https://github.com/abhinab-nath/IP-Nomad.git ```
 
 ```cd ipnomad```
 
